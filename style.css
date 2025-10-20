@@ -1,10 +1,3 @@
-
-h1{
-    color: white;
-}
-h2 {
-    color: black;
-}
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +5,8 @@ h2 {
 
 }
 
+.header1 {
+    display: flex;
+    position: fixed;
 
-button {
-    width: 10px;
-}
-
-h3 {
-    color: red;
 }
