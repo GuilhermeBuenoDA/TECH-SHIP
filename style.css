@@ -27,3 +27,24 @@
     color: #333;
     font-size: 20px;
 }
+
+.tituloimportarnunca {
+   text-align: center;
+}
+.tituloimportar {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tituloimportar2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.divmaeimportanuncafoitaofacil {
+    display: flex;
+}
+.divimportanuncafoitaofacil {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
