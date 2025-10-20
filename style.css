@@ -28,16 +28,26 @@
     font-size: 20px;
 }
 
+
+.tituloimportarnunca {
+   text-align: center;
+}
+
 .tituloprincipal {
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 40px;
+
     font-size: 55px;
     margin-bottom: 1%;
 
 }
 .tituloimportarnunca {
    text-align: center;
+
 }
+
 .tituloimportar {
     font-size: 40px;
     font-weight: bold;
@@ -50,10 +60,38 @@
 .divmaeimportanuncafoitaofacil {
     display: flex;
 }
+.numero01importar{
+    color: white;
+    background-color: rgb(0, 81, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 100px
+}
 .divimportanuncafoitaofacil {
     background-color: white;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(209, 209, 209);
     border-radius: 20px;
+
+    padding-left: 20px;
+    width: 400px;
+    height: 250px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iconenumeroprimarioimportar {
+    border-radius: 50px;
+    margin-left: 330px;
+    height: 40px;
+}
+.iconesecundarioimportar {
+    border-radius: 10px;
+    width: 50px;
+    margin-top: 10px;
+
 }
 .botao1p {
     margin-top: 20px;
