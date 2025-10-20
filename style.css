@@ -24,11 +24,32 @@
     margin-left: 15px;
     margin-right: 20px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
+    color: #333;
     font-size: 20px;
 }
+
 .tituloprincipal {
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
+
+.tituloimportarnunca {
+   text-align: center;
+}
+.tituloimportar {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tituloimportar2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.divmaeimportanuncafoitaofacil {
+    display: flex;
+}
+.divimportanuncafoitaofacil {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
 }
