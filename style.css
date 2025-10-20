@@ -36,7 +36,16 @@
 .tituloprincipal {
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+
     font-size: 40px;
+
+    font-size: 55px;
+    margin-bottom: 1%;
+
+}
+.tituloimportarnunca {
+   text-align: center;
+
 }
 
 .tituloimportar {
@@ -65,6 +74,7 @@
     background-color: white;
     border: 1.5px solid rgb(209, 209, 209);
     border-radius: 20px;
+
     padding-left: 20px;
     width: 400px;
     height: 250px;
@@ -81,4 +91,37 @@
     border-radius: 10px;
     width: 50px;
     margin-top: 10px;
+
+}
+.botao1p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color:rgb(255, 94, 0) ;
+    color: aliceblue;
+}
+.botao2p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color:white ;
+    
+}
+.mãe {
+    display: flex;
+}
+.textembaixo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 138, 150);
+    font-weight: 10px;
+}
+.tp {
+    margin-left: 15px;
+}
+.itensp {
+    color: blue;
 }
