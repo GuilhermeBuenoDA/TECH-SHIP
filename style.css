@@ -74,10 +74,10 @@
     background-color: white;
     border: 1.5px solid rgb(209, 209, 209);
     border-radius: 20px;
-
-    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
     width: 400px;
-    height: 250px;
+    height: 230px;
     margin-left: 200px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -90,8 +90,17 @@
 .iconesecundarioimportar {
     border-radius: 10px;
     width: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
 
+}
+.textonegritoimportar {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.textoimportarn {
+    margin-top: 20px;
+    color: rgb(83, 83, 83);
 }
 .botao1p {
     margin-top: 20px;
