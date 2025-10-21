@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
 }
-
+/* inicio */
 .header1 {
     display: flex;
     justify-content: space-between;
@@ -27,21 +27,60 @@
     color: #333;
     font-size: 20px;
 }
+.botao1p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:100px ;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color:rgb(255, 94, 0) ;
+    color: aliceblue;
+}
+.botao2p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color:white ;
+    
+}
+.mãe {
+    display: flex;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textembaixo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 138, 150);
+    font-weight: 10px;
+    margin-left: 100px;
+}
+.tp {
+    margin-left: 15px;
+}
+.mãe h1 {
+    color: blue;
+}
+.mãe p {
+    font-size: 11px;
+    color:rgb(123, 138, 150) ;
+    font-weight: 85px;
+}
+/* inicio final */
 
-
+/* importar inicio  */
 .tituloimportarnunca {
    text-align: center;
 }
 
 .tituloprincipal {
-    margin-top: 100px;
+    margin-top: 300px;
     font-family: Arial, Helvetica, sans-serif;
-
-    font-size: 40px;
-
-    font-size: 55px;
+    font-size: 70px;
     margin-bottom: 1%;
-
+    margin-left: 100px;
 }
 .tituloimportarnunca {
    text-align: center;
@@ -102,35 +141,5 @@
     margin-top: 20px;
     color: rgb(83, 83, 83);
 }
-.botao1p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    padding: 10px 20px;
-    background-color:rgb(255, 94, 0) ;
-    color: aliceblue;
-}
-.botao2p {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 10px 20px;
-    background-color:white ;
-    
-}
-.mãe {
-    display: flex;
-}
-.textembaixo {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(123, 138, 150);
-    font-weight: 10px;
-}
-.tp {
-    margin-left: 15px;
-}
-.mãe h1 {
-    color: blue;
-}
+/*  importar final */
+
