@@ -157,11 +157,6 @@ header h1 {
    text-align: center;
 }
 
-.tituloimportarnunca {
-   text-align: center;
-
-}
-
 .tituloimportar {
     font-size: 40px;
     font-weight: bold;
@@ -265,10 +260,38 @@ header h1 {
     text-align: center;
     margin-top: 70px;
 }
+/*Carlosfim*/
 
+/*inicio Vantagens que Fazem a Diferença*/
+.tituloVantagensDiferença {
+    text-align: center;
+}
+.tiituloVantagens1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.tituloVantagens2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+}
+
+
+/*inicio Vantagens que Fazem a Diferença fim*/
 
 /* footer inicio */
 footer {
-    background-color: rgb(7, 2, 36);
+    background-color: white;
     
+}
+.emcima1{
+    display: flex;
+}
+.emcima2 {
+    display: flex;
+}
+.ultimo{
+display: flex;
 }
