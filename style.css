@@ -54,6 +54,9 @@ header h1 {
 }
 
 /* fim header */
+/*main*/
+/*main final*/
+/*inicio*/
 .botao1p {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -126,7 +129,7 @@ header h1 {
 }
 .mãe p {
     font-size: 15px;
-    color:rgb(123, 138, 150) ;
+    color:rgb(11, 92, 243);
     font-weight: 85px;
 }
 .op2{
@@ -150,6 +153,7 @@ header h1 {
     border-color: rgb(226, 226, 226);
     color: rgb(0, 0, 0);
 }
+
 /* inicio final */
 
 /* importar inicio  */
@@ -260,9 +264,20 @@ header h1 {
     text-align: center;
     margin-top: 70px;
 }
-/*Carlosfim*/
+.tokito2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #A3A3A3;
+    margin-top: 20px;
+}
 
-/*inicio Vantagens que Fazem a Diferença*/
+/*Carlosfim*/
+/*inicio Vantags que Fazem a Diferença*/
+.backgroundVantagem {
+    background-color: #f8fcff;
+
+}
 .tituloVantagensDiferença {
     text-align: center;
 }
@@ -270,14 +285,93 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+    margin-top: 80px;
+    padding-top: 60px;
 }
 .tituloVantagens2 {
     margin-top: 20px;
     font-size: 20px;
     color: rgb(163, 163, 163);
 }
-
+.divmãeVantagensDiferença {
+    display: flex;
+}
+.divVantagens1 {
+    background-color: white;
+    border: 1.5px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 450px;
+    height: 170px;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divVantagens2 {
+    background-color: white;
+    border: 1.5px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 450px;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divVantagens3 {
+    background-color: white;
+    border: 1.5px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 450px;
+    height: 170px;
+    margin-left: 450px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divVantagens4 {
+    background-color: white;
+    border: 1.5px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 450px;
+    height: 170px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divDentroVantagens1 {
+    display: flex;
+    margin-top: 25px;
+}
+.divDentroVantagens1 img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 90px;
+}
+.divDentroVantagens1 p {
+    margin-left: 20px;
+}
+.titulodivVantagens1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+}
+.textodivvantagens1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 200px;
+    color: rgb(124, 124, 124);
+    line-height: 1.6;
+}
 
 /*inicio Vantagens que Fazem a Diferença fim*/
 
@@ -294,4 +388,16 @@ footer {
 }
 .ultimo{
 display: flex;
+}
+
+/*Tecnologias de Última Geração*/
+
+.eu {
+    background: oklch(.379 .146 265.522)
+        transform: none;
+}
+
+
+tu {
+    text-align: centertext-align: center;
 }
