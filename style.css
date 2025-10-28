@@ -1,43 +1,51 @@
-:root{
+:root {
     --background-color-header: rgba(255, 255, 255, 0.7);
     --color-header: rgba(66, 65, 65, 0.5);
 
-    --color-black:black;
+    --color-black: black;
     --color-white: white;
-    --color-azul:rgb(11, 92, 243);
-    --color-grey:rgb(61, 61, 61);
-    --color-cinza-claro: rgb(124, 124, 124) ;
-
-    --texto-embaixo:rgb(123, 138, 150);
-    --color-linha:rgb(226, 226, 226);
-    --background-button-laranja:rgb(255, 94, 0) ;
+    --color-azul: rgb(11, 92, 243);
+    --color-grey: rgb(61, 61, 61);
+    --color-cinza-claro: rgb(104, 103, 103);
+    --transparente  : transparent;
+    --texto-embaixo: rgb(123, 138, 150);
+    --color-linha: rgb(226, 226, 226);
+    --background-button-laranja: rgb(255, 94, 0);
     --background-button1-inicio-hover: rgb(255, 137, 66);
-    --color-button-inicio:aliceblue;
-    --bacground-color-white: white ;
+    --color-button-inicio: aliceblue;
+    --bacground-color-white: white;
+    --tokito-cor: rgb(95, 0, 158);
+    --tokito-corr: rgb(4, 4, 196);
+    --tokito-co: aqua;
+    --tokito-c: rgb(230, 104, 255);
 }
-.tema-dark{
+
+.tema-dark {
     --background-color-header: black;
     --color-header: rgb(185, 170, 170);
 
-    --color-black:white;
+    --color-black: white;
     --color-white: black;
-    --color-azul:rgb(11, 92, 243);
-    --color-grey: rgb(141, 131, 131) ;;
-    --color-cinza-claro:rgb(216, 200, 200) ;
+    --color-azul: rgb(11, 92, 243);
+    --color-grey: rgb(141, 131, 131);
+    ;
+    --color-cinza-claro: rgb(216, 200, 200);
 
-    --texto-embaixo:rgb(204, 214, 221);
-    --color-linha:rgb(226, 226, 226);
-    --background-button-laranja:rgb(255, 94, 0) ;
+    --texto-embaixo: rgb(204, 214, 221);
+    --color-linha: rgb(226, 226, 226);
+    --background-button-laranja: rgb(255, 94, 0);
     --background-button1-inicio-hover: rgb(255, 137, 66);
-    --color-button-inicio:aliceblue;
-    --bacground-color-white: black ;
+    --color-button-inicio: aliceblue;
+    --bacground-color-white: black;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+
 /* inicio */
 
 /* inicio header */
@@ -46,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color:var(--background-color-header);
+    background-color: var(--background-color-header);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     position: fixed;
@@ -63,6 +71,7 @@ header h1 {
     margin-top: 20px;
     color: var(--color-black);
 }
+
 .fundo {
     background-color: var(--bacground-color-white);
 }
@@ -71,25 +80,30 @@ header h1 {
     margin-left: 15px;
     margin-right: 20px;
     text-decoration: none;
-    color:var(--color-header);
+    color: var(--color-header);
     font-size: 20px;
     transition: color 0.3s ease;
     border: none;
     background-color: transparent;
     margin-top: 20px;
 }
+
 .a2:hover {
     color: var(--color-black);
 }
+
 .a3:hover {
     color: var(--color-black);
 }
+
 .a4:hover {
     color: var(--color-black);
 }
+
 .a5:hover {
     color: var(--color-black);
 }
+
 .a6:hover {
     color: var(--color-black);
 }
@@ -101,42 +115,48 @@ header h1 {
 .botao1p {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left:100px ;
+    margin-left: 100px;
     border-radius: 7px;
     border: none;
     padding: 10px 20px;
-    background-color:var(--background-button-laranja);
+    background-color: var(--background-button-laranja);
     color: var(--color-button-inicio);
     transition: all 0.8s ease;
 }
+
 .botao1p:hover {
     background-color: var(--background-button1-inicio-hover);
 }
+
 .botao2p {
     margin-top: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
     border: 1px solid rgb(148, 145, 145);
     padding: 10px 20px;
-    background-color:var(--bacground-color-white) ;
+    background-color: var(--bacground-color-white);
     color: var(--color-black);
     transition: all 0.8s ease;
 }
+
 .botao2p:hover {
     background-color: var(--background-button-laranja);
     color: var(--color-button-inicio);
     border: none;
 }
+
 @keyframes slideIn {
     from {
         transform: translateY(50px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
+
 .imageminicial img {
     margin-left: 80px;
     margin-top: 250px;
@@ -145,14 +165,16 @@ header h1 {
     animation: slideIn 1s ease-out;
     border-radius: 20px;
 }
+
 .mãe {
     margin-top: 20px;
     display: flex;
     margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
     animation: slideIn 1s ease-out;
-    
+
 }
+
 .textembaixo {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--texto-embaixo);
@@ -162,27 +184,34 @@ header h1 {
     font-size: 16px;
     line-height: 1.5;
 }
+
 .tp {
     margin-left: 50px;
 }
+
 .mãe h1 {
     color: var(--color-azul);
-    font-size: 45px ;
+    font-size: 45px;
 }
+
 .mãe p {
     font-size: 15px;
-    color:var(--color-azul);
+    color: var(--color-azul);
     font-weight: 85px;
 }
-.op2{
+
+.op2 {
     margin-left: 80px;
 }
+
 .op3 {
     margin-left: 80px;
 }
+
 .parte1 {
     display: flex;
 }
+
 .tituloprincipal {
     margin-top: 300px;
     font-family: Arial, Helvetica, sans-serif;
@@ -191,11 +220,13 @@ header h1 {
     margin-left: 100px;
     color: var(--color-black);
 }
+
 .imagemTr {
     display: flex;
     height: 500px;
     width: 500px;
 }
+
 .linha {
     margin-left: 90px;
     border-color: rgb(226, 226, 226);
@@ -206,7 +237,7 @@ header h1 {
 
 /* importar inicio  */
 .tituloimportarnunca {
-   text-align: center;
+    text-align: center;
 }
 
 .tituloimportar {
@@ -215,11 +246,12 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-black);
 }
+
 .tituloimportar2 {
     margin-top: 20px;
     font-size: 20px;
     color: var(--texto-embaixo);
-    
+
 }
 
 .divmaeimportanuncafoitaofacil {
@@ -240,9 +272,11 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     transition: box-shadow 0.4s ease;
 }
+
 .divimportanuncafoitaofacil:hover {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .divimportanuncafoitaofacil1 {
     background-color: var(--bacground-color-white);
     border: 1.5px solid rgb(209, 209, 209);
@@ -257,9 +291,11 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     transition: box-shadow 0.4s ease;
 }
+
 .divimportanuncafoitaofacil1:hover {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .divimportanuncafoitaofacil2 {
     background-color: var(--bacground-color-white);
     border: 1.5px solid rgb(209, 209, 209);
@@ -275,14 +311,17 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     transition: box-shadow 0.4s ease;
 }
+
 .divimportanuncafoitaofacil2:hover {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .iconenumeroprimarioimportar {
     border-radius: 50px;
     margin-left: 330px;
     height: 40px;
 }
+
 .iconesecundarioimportar {
     border-radius: 12px;
     width: 70px;
@@ -290,12 +329,14 @@ header h1 {
     margin-top: 30px;
 
 }
+
 .textonegritoimportar {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
     color: var(--color-grey);
 }
+
 .textoimportarn {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -303,6 +344,7 @@ header h1 {
     color: var(--color-cinza-claro);
     line-height: 1.6;
 }
+
 /*  importar final */
 
 /*Carlos*/
@@ -312,8 +354,9 @@ header h1 {
     font-weight: bold;
     text-align: center;
     margin-top: 70px;
-    color: var(black);
+    color: var(--color-black);
 }
+
 .tokito2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -322,15 +365,60 @@ header h1 {
     margin-top: 20px;
 }
 
+.tokito3 {
+    background: linear-gradient(50deg, var(--tokito-corr), var(--tokito-cor));
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 450px;
+    border-radius: 5px;
+    color: var(--color-black);
+    padding-bottom: 10px;
+}
+.tokito4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: var(--bacground-color-white);
+    padding-left: 50px;
+    padding-top: 33px;
+}
+.tokito5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: var(--color-cinza-claro);
+    padding-left: 50px;
+}
+.tokito6 {
+    margin-left: 50px;
+    padding-right: 500px;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.tokito7 {
+    background: linear-gradient(50deg, var(--tokito-co), var(--tokito-cor));
+    padding-right: 100px;
+    margin-left: 75px;
+    padding-bottom:25px;
+    padding-top: 15px;
+}
+
 /*Carlosfim*/
 /*inicio Vantags que Fazem a Diferença*/
 .backgroundVantagem {
     background-color: var(--bacground-color-white);
 
 }
+
 .tituloVantagensDiferença {
     text-align: center;
 }
+
 .tiituloVantagens1 {
     font-size: 40px;
     font-weight: bold;
@@ -339,17 +427,27 @@ header h1 {
     padding-top: 60px;
     color: var(--color-black);
 }
-.tituloVantagens2 {
-    margin-top: 20px;
-    font-size: 20px;
+
+.tiituloVantagens2 {
+    margin-top: 30px;
+    font-size: 19px;
     color: rgb(163, 163, 163);
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
 }
+
 .divmãeVantagensDiferença {
     display: flex;
 }
+
 .divVantagens1 {
     background-color: var(--bacground-color-white);
-    border: 1.5px solid rgb(209, 209, 209);
+    border: 1px solid rgba(209, 209, 209, 0.1);
     border-radius: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
@@ -359,10 +457,17 @@ header h1 {
     margin-left: 450px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);    
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.divVantagens1:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(209, 209, 209, 0.2);
 }
 .divVantagens2 {
     background-color: var(--bacground-color-white);
-    border: 1.5px solid rgb(209, 209, 209);
+    border: 1px solid rgb(209, 209, 209, 0.1);
     border-radius: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
@@ -372,10 +477,18 @@ header h1 {
     margin-left: 50px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) ;
+    transition: box-shadow 0.3 ease, border-color 0.3 ease;
 }
+
+.divVantagens2:hover {
+    box-shadow: 0px 6px 15px rgb(0, 0, 0, 0.2);
+    border-color: rgba(209, 209, 209, 0.2);
+}
+
 .divVantagens3 {
     background-color: var(--bacground-color-white);
-    border: 1.5px solid rgb(209, 209, 209);
+    border: 1px solid rgb(209, 209, 209, 0.1);
     border-radius: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
@@ -385,10 +498,18 @@ header h1 {
     margin-left: 450px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3 ease, border-color 0.3 ease;
 }
+
+.divVantagens3:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(209, 209, 209, 0.2);
+}
+
 .divVantagens4 {
     background-color: var(--bacground-color-white);
-    border: 1.5px solid rgb(209, 209, 209);
+    border: 1px solid rgb(209, 209, 209, 0.1);
     border-radius: 20px;
     margin-bottom: 20px;
     padding-left: 30px;
@@ -398,24 +519,36 @@ header h1 {
     margin-left: 50px;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3 ease, border-color 0.3 ease;
 }
+
+.divVantagens4:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(209, 209, 209, 0.2);
+}
+
 .divDentroVantagens1 {
     display: flex;
     margin-top: 25px;
 }
+
 .divDentroVantagens1 img {
     height: 60px;
     width: 60px;
     margin-bottom: 90px;
 }
+
 .divDentroVantagens1 p {
     margin-left: 20px;
 }
+
 .titulodivVantagens1 {
     font-weight: bold;
     font-size: 20px;
     color: var(--color-grey);
 }
+
 .textodivvantagens1 {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -430,18 +563,69 @@ header h1 {
 
 /* footer inicio */
 footer {
-    background-color: var(--bacground-color-white);
+    background-color:rgb(2, 14, 36);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    color: rgb(225, 234, 241);
+}
+
+footer h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: norma;
+}
+
+footer button {
+    color: rgb(163, 154, 154);
+    border: none;
+    background-color: var(--transparente);
+    margin-top: 20px ;
+    transition: color 0,3s;
+    cursor: pointer;
+    font-size: 17px;
+}
+footer button:hover {
+    color: aliceblue;
+}
+
+.emcima1 {
+    display: flex;
+    padding-top: 40px;
     
 }
-.emcima1{
+.pmaldito {
+    margin-top: 20px;
+    color: rgb(163, 154, 154);
+}
+.ultimo {
     display: flex;
 }
-.emcima2 {
-    display: flex;
+.t0 {
+    margin-left: 20px;
 }
-.ultimo{
-display: flex;
+.t1 {
+    margin-left: 150px;
+    margin-right: 150px;
 }
-
+.t2 {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.t3 {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.t4 {
+    margin-right: 50px;
+    margin-left: 150px;
+}
+.to {
+    margin-top: 10px;
+    color: rgb(163, 154, 154) ;
+}
+.hrmaldito {
+    color: ;
+}
 /*Tecnologias de Última Geração*/
-
