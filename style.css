@@ -7,7 +7,7 @@
     --color-azul: rgb(11, 92, 243);
     --color-grey: rgb(61, 61, 61);
     --color-cinza-claro: rgb(104, 103, 103);
-    --transparente  : transparent;
+    --transparente: transparent;
     --texto-embaixo: rgb(123, 138, 150);
     --color-linha: rgb(226, 226, 226);
     --background-button-laranja: rgb(255, 94, 0);
@@ -241,7 +241,7 @@ header h1 {
 }
 
 .tituloimportar {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-black);
@@ -375,6 +375,7 @@ header h1 {
     color: var(--color-black);
     padding-bottom: 10px;
 }
+
 .tokito4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
@@ -382,12 +383,14 @@ header h1 {
     padding-left: 50px;
     padding-top: 33px;
 }
+
 .tokito5 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     color: var(--color-cinza-claro);
     padding-left: 50px;
 }
+
 .tokito6 {
     margin-left: 50px;
     padding-right: 500px;
@@ -400,11 +403,18 @@ header h1 {
     margin-bottom: 15px;
     cursor: pointer;
 }
+
 .tokito7 {
-    background: linear-gradient(50deg, var(--tokito-co), var(--tokito-cor));
+    background: blue, red;
+    /* Duas cores de fundo */
+    background-size: 50% 100%;
+    /* Cada cor ocupa metade da largura */
+    background-position: 0 0, 100% 0;
+    /* Posiciona a azul na esquerda e a vermelha na direita */
+    background-repeat: no-repeat;
     padding-right: 100px;
     margin-left: 75px;
-    padding-bottom:25px;
+    padding-bottom: 25px;
     padding-top: 15px;
 }
 
@@ -420,7 +430,7 @@ header h1 {
 }
 
 .tiituloVantagens1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 80px;
@@ -429,16 +439,15 @@ header h1 {
 }
 
 .tiituloVantagens2 {
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 19px;
     color: rgb(163, 163, 163);
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    word-wrap: break-word;
+
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 30px;
 }
 
 .divmãeVantagensDiferença {
@@ -457,7 +466,7 @@ header h1 {
     margin-left: 450px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
@@ -465,6 +474,7 @@ header h1 {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     border-color: rgba(209, 209, 209, 0.2);
 }
+
 .divVantagens2 {
     background-color: var(--bacground-color-white);
     border: 1px solid rgb(209, 209, 209, 0.1);
@@ -477,7 +487,7 @@ header h1 {
     margin-left: 50px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) ;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3 ease, border-color 0.3 ease;
 }
 
@@ -557,18 +567,26 @@ header h1 {
     line-height: 1.6;
 }
 
-/*inicio Vantagens que Fazem a Diferença fim*/
+/*Vantagens que Fazem a Diferença fim*/
 
 /*main final*/
 
 /* footer inicio */
+
 footer {
-    background-color:rgb(2, 14, 36);
+    background-color: rgb(2, 14, 36);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer p {
     color: rgb(225, 234, 241);
+}
+
+.footerdivlogo {
+    display: flex;
+}
+.footerdivlogo img {
+    height: 50px;
 }
 
 footer h1 {
@@ -581,11 +599,17 @@ footer button {
     color: rgb(163, 154, 154);
     border: none;
     background-color: var(--transparente);
-    margin-top: 20px ;
-    transition: color 0,3s;
+    margin-top: 20px;
+    transition: color 0, 3s;
     cursor: pointer;
     font-size: 17px;
+    transition: all 0.5s ease;
 }
+footer button:hover{
+    border-bottom: 3px solid white ;
+    border-radius: 5px;
+}
+
 footer button:hover {
     color: aliceblue;
 }
@@ -593,39 +617,70 @@ footer button:hover {
 .emcima1 {
     display: flex;
     padding-top: 40px;
-    
+
 }
+
 .pmaldito {
     margin-top: 20px;
     color: rgb(163, 154, 154);
 }
+
 .ultimo {
     display: flex;
+    align-items:center;
 }
-.t0 {
+.ultimo p {
     margin-left: 20px;
 }
+.b1 {
+    margin-left: auto;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+
+.b3 {
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+.b2 {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.t0 {
+    margin-left: 100px;
+}
+
 .t1 {
     margin-left: 150px;
     margin-right: 150px;
 }
+
 .t2 {
     margin-right: 150px;
     margin-left: 150px;
 }
+
 .t3 {
     margin-right: 150px;
     margin-left: 150px;
 }
+
 .t4 {
     margin-right: 50px;
     margin-left: 150px;
 }
+
 .to {
     margin-top: 10px;
-    color: rgb(163, 154, 154) ;
+    color: rgb(163, 154, 154);
 }
+
 .hrmaldito {
-    color: ;
+    margin-top: 80px;
+    margin-top: 80px;
+    border: none;
+    border-top: 2px solid rgba(76, 80, 88, 0.2);
 }
+
 /*Tecnologias de Última Geração*/
