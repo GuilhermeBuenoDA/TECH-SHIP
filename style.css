@@ -18,6 +18,12 @@
     --tokito-corr: rgb(4, 4, 196);
     --tokito-co: aqua;
     --tokito-c: rgb(230, 104, 255);
+
+    --boz-shadow-oreia-fraco: 0 10px 15px rgba(0, 0, 0, 0.2);
+    --boz-shadow-oreia-forte: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    --boz-shadow-oreia-fraco2:0 10px 15px rgba(0, 0, 0, 0.2);
+    --boz-shadow-oreia-forte2: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .tema-dark {
@@ -28,7 +34,7 @@
     --color-white: black;
     --color-azul: rgb(11, 92, 243);
     --color-grey: rgb(141, 131, 131);
-    ;
+
     --color-cinza-claro: rgb(216, 200, 200);
 
     --texto-embaixo: rgb(204, 214, 221);
@@ -37,6 +43,12 @@
     --background-button1-inicio-hover: rgb(255, 137, 66);
     --color-button-inicio: aliceblue;
     --bacground-color-white: black;
+
+    --boz-shadow-oreia-fraco: 0 10px 15px rgba(214, 203, 203, 0.76);
+    --boz-shadow-oreia-forte:  0 4px 6px rgba(221, 206, 206, 0.4);
+
+    --boz-shadow-oreia-fraco2:0 10px 15px rgba(214, 203, 203, 0.76);
+    --boz-shadow-oreia-forte2: 0 4px 6px  rgba(221, 206, 206, 0.4);
 }
 
 * {
@@ -47,7 +59,252 @@
 }
 
 /* inicio */
+/*inicio tela de login*/
+.bodycadastro {
+    background-color: #f6fdff;
+}
 
+.Cadastrodivconteiner {
+    background-color: white;
+    height: 750px;
+    width: 470px;
+    margin-left: 735px;
+    margin-top: 100px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(209, 209, 209, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Cadastrodivconteiner img {
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.Titulotechship {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 110px;
+    color: rgb(0, 132, 255);
+    margin-bottom: 1px;
+}
+
+.subtitulocadastro {
+    font-size: 16px;
+    margin-left: 140px;
+    margin-top: 15px;
+    color: rgb(121, 121, 121);
+}
+
+.nomecadastro {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    margin-bottom: 1px;
+}
+
+.inputnomecadastro {
+    height: 45px;
+    width: 330px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+    font-size: 13px;
+    padding-left: 40px;
+    background-image: url(img/);
+    background-repeat: no-repeat;
+    background-size: 20px 25px;
+    background-position: 5px;
+}
+
+.buttoncadastro {
+    margin-top: 20px;
+    height: 50px;
+    width: 375px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.buttoncadastro button {
+    margin-top: 20px;
+    height: 50px;
+    width: 375px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+.buttoncadastro button:hover {
+    background: linear-gradient(to right, #0917d6, #065396);
+}
+
+
+.façalogincadastro {
+text-align: center;
+color: rgb(121, 121, 121);;
+}
+
+.linhacadastro {
+    border-color: rgb(219, 219, 219);
+    width: 100%;
+    border-color: #ffffff;
+}
+
+.a {
+    text-decoration: none;
+    color: #0b5dbb;
+    font-weight: bold;
+}
+
+.a:hover {
+    border-bottom: 2px solid #0b5dbb;
+}
+
+/* Cadastro */
+.bodycadastro {
+    background-color: #f6fdff;
+}
+
+.Cadastrodivconteiner {
+    background-color: white;
+    height: 750px;
+    width: 370px;
+    margin-left: 735px;
+    margin-top: 100px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(209, 209, 209, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Cadastrodivconteiner img {
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.Titulotechship {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 110px;
+    color: rgb(0, 132, 255);
+    margin-bottom: 1px;
+}
+
+.subtitulocadastro {
+    font-size: 16px;
+    margin-left: 140px;
+    margin-top: 15px;
+    color: rgb(121, 121, 121);
+}
+
+.nomecadastro {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    margin-bottom: 1px;
+}
+
+.inputnomecadastro {
+    height: 45px;
+    width: 330px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+    font-size: 13px;
+    padding-left: 40px;
+    background-image: url(img/iconepessoa.png);
+    background-repeat: no-repeat;
+    background-size: 20px 25px;
+    background-position: 5px;
+
+}
+
+.buttoncadastro {
+    margin-top: 20px;
+    height: 50px;
+    width: 375px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.buttoncadastro button {
+    margin-top: 20px;
+    height: 50px;
+    width: 375px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+.buttoncadastro :hover {
+    background: linear-gradient(to right, #0917d6, #065396);
+}
+
+
+.façalogincadastro {
+text-align: center;
+font-size: 13px;
+color: rgb(121, 121, 121);;
+}
+
+.linhacadastro {
+    border: 0.1px solid rgb(190, 190, 190);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.a {
+    text-decoration: none;
+    color: #0b5dbb;
+    font-weight: bold;
+}
+
+.a:hover {
+    border-bottom: 2px solid #0b5dbb;
+}
+
+/*CadastroFim*/
+
+/*fim tela de login*/
 /* inicio header */
 .header1 {
     display: flex;
@@ -260,9 +517,10 @@ header h1 {
 
 .divimportanuncafoitaofacil {
     background-color: var(--bacground-color-white);
-    border: 1.5px solid rgb(209, 209, 209);
+    transition: box-shadow 0.4s ease;
     border-radius: 20px;
     margin-bottom: 20px;
+    border: 1.5px solid rgb(209, 209, 209);
     padding-left: 30px;
     padding-right: 30px;
     width: 350px;
@@ -270,11 +528,11 @@ header h1 {
     margin-left: 200px;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    transition: box-shadow 0.4s ease;
+
 }
 
 .divimportanuncafoitaofacil:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
 }
 
 .divimportanuncafoitaofacil1 {
@@ -293,8 +551,9 @@ header h1 {
 }
 
 .divimportanuncafoitaofacil1:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
 }
+
 
 .divimportanuncafoitaofacil2 {
     background-color: var(--bacground-color-white);
@@ -313,7 +572,8 @@ header h1 {
 }
 
 .divimportanuncafoitaofacil2:hover {
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
+
 }
 
 .iconenumeroprimarioimportar {
@@ -467,11 +727,11 @@ header h1 {
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    transition: box-shadow 0.5s ease, border-color 0.3s ease;
 }
 
 .divVantagens1:hover {
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--boz-shadow-oreia-fraco), var(--boz-shadow-oreia-forte2);
     border-color: rgba(209, 209, 209, 0.2);
 }
 
@@ -488,11 +748,11 @@ header h1 {
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3 ease, border-color 0.3 ease;
+    transition: box-shadow 0.5s ease, border-color 0.3s ease;
 }
 
 .divVantagens2:hover {
-    box-shadow: 0px 6px 15px rgb(0, 0, 0, 0.2);
+    box-shadow: var(--boz-shadow-oreia-fraco), var(--boz-shadow-oreia-forte2);
     border-color: rgba(209, 209, 209, 0.2);
 }
 
@@ -509,12 +769,12 @@ header h1 {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3 ease, border-color 0.3 ease;
+    transition: box-shadow 0.5s ease, border-color 0.3s ease;
 }
 
 .divVantagens3:hover {
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    border-color: rgba(209, 209, 209, 0.2);
+    box-shadow: var(--boz-shadow-oreia-fraco), var(--boz-shadow-oreia-forte2);
+    border-color: rgba(209, 209, 209, 0.3);
 }
 
 .divVantagens4 {
@@ -530,11 +790,11 @@ header h1 {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3 ease, border-color 0.3 ease;
+    transition: box-shadow 0.5s ease, border-color 0.3s ease;
 }
 
 .divVantagens4:hover {
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--boz-shadow-oreia-fraco), var(--boz-shadow-oreia-forte2);
     border-color: rgba(209, 209, 209, 0.2);
 }
 
@@ -585,6 +845,7 @@ footer p {
 .footerdivlogo {
     display: flex;
 }
+
 .footerdivlogo img {
     height: 50px;
 }
@@ -605,8 +866,9 @@ footer button {
     font-size: 17px;
     transition: all 0.5s ease;
 }
-footer button:hover{
-    border-bottom: 3px solid white ;
+
+footer button:hover {
+    border-bottom: 3px solid white;
     border-radius: 5px;
 }
 
@@ -627,11 +889,13 @@ footer button:hover {
 
 .ultimo {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
+
 .ultimo p {
-    margin-left: 20px;
+    margin-left: 95px;
 }
+
 .b1 {
     margin-left: auto;
     margin-right: 90px;
@@ -643,10 +907,12 @@ footer button:hover {
     margin-right: 150px;
     margin-bottom: 20px;
 }
+
 .b2 {
     margin-right: 50px;
     margin-bottom: 20px;
 }
+
 .t0 {
     margin-left: 100px;
 }
@@ -684,3 +950,6 @@ footer button:hover {
 }
 
 /*Tecnologias de Última Geração*/
+
+
+@media screen and (min-width: 801px) {}
