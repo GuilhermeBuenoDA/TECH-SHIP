@@ -36,3 +36,6 @@ botaoTrocarTema.addEventListener('click', trocarTema);
         botaoTrocarTema.textContent = "Alterar Para Tema Escuro";
     }
 })();
+function nao() {
+    window.location.href="Tela de Login.html"
+}
