@@ -62,12 +62,15 @@
 /*inicio tela de login*/
 .bodycadastro {
     background-color: #f6fdff;
+    display: block;
+    justify-content: center;
+    align-items: center;  
 }
 
 .Cadastrodivconteiner {
     background-color: white;
     height: 750px;
-    width: 470px;
+    width: 400px;
     margin-left: 735px;
     margin-top: 100px;
     border-radius: 12px;
@@ -87,27 +90,39 @@
     font-weight: bold;
     font-size: 30px;
     margin-top: 10px;
-    margin-left: 110px;
+    margin-left: 100px;
     color: rgb(0, 132, 255);
     margin-bottom: 1px;
 }
 
-.subtitulocadastro {
-    font-size: 16px;
-    margin-left: 140px;
+.subtitulologin {
+    font-size: 20px;
+    margin-left: 95px;
     margin-top: 15px;
     color: rgb(121, 121, 121);
 }
-
-.nomecadastro {
-    margin-top: 30px;
+.buttoncadastro {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    height: 45px;
+    width: 325px;
+    border-radius: 9px;
+    border: none;
+    color: white;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: rgb(83, 83, 83);
-    margin-bottom: 1px;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 20px;
+}
+.buttoncadastro:hover {
+    background: linear-gradient(to right, #0917d6, #065396);
 }
 
-.inputnomecadastro {
+.inputemaillogin {
     height: 45px;
     width: 330px;
     border: 1px solid rgb(209, 209, 209);
@@ -116,57 +131,47 @@
     background-color: rgb(245, 245, 245);
     font-size: 13px;
     padding-left: 40px;
-    background-image: url(img/);
+    background-image: url(img/envelope.png);
     background-repeat: no-repeat;
-    background-size: 20px 25px;
+    background-size: 30px 30px;
     background-position: 5px;
-}
+    transition: all 0.3s ease-out;
 
-.buttoncadastro {
-    margin-top: 20px;
-    height: 50px;
-    width: 375px;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background: linear-gradient(to right, #0b5dbb, #00a1fe);
-    cursor: pointer;
-    transition: background 0.3s ease;
-    margin-bottom: 20px;
 }
+.inputsenhalogin {
+    height: 45px;
+    width: 330px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: rgb(245, 245, 245);
+    font-size: 13px;
+    padding-left: 40px;
+    background-image: url(img/cadeado.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px;
+    transition: all 0.3s ease-out;
 
-.buttoncadastro button {
-    margin-top: 20px;
-    height: 50px;
-    width: 375px;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background: linear-gradient(to right, #0b5dbb, #00a1fe);
-    cursor: pointer;
-    transition: background 0.3s ease;
-    margin-bottom: 20px;
 }
-.buttoncadastro button:hover {
-    background: linear-gradient(to right, #0917d6, #065396);
+.inputemaillogin:focus, .inputsenhalogin:focus,.inputnomecadastro:focus,.inputemailcadastro:focus,.inputsenhacadastro:focus {
+    outline: none;
+    border-color: #0b5dbb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px); 
 }
-
 
 .façalogincadastro {
 text-align: center;
-color: rgb(121, 121, 121);;
+font-size: 13px;
+color: rgb(121, 121, 121);
 }
 
 .linhacadastro {
-    border-color: rgb(219, 219, 219);
+    border: 0.1px solid rgb(190, 190, 190);
     width: 100%;
-    border-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .a {
@@ -178,16 +183,19 @@ color: rgb(121, 121, 121);;
 .a:hover {
     border-bottom: 2px solid #0b5dbb;
 }
-
+\*fim tela de login*/
 /* Cadastro */
 .bodycadastro {
     background-color: #f6fdff;
+    display: block;
+    justify-content: center;
+    align-items: center;  
 }
 
 .Cadastrodivconteiner {
     background-color: white;
     height: 750px;
-    width: 370px;
+    width: 400px;
     margin-left: 735px;
     margin-top: 100px;
     border-radius: 12px;
@@ -207,14 +215,14 @@ color: rgb(121, 121, 121);;
     font-weight: bold;
     font-size: 30px;
     margin-top: 10px;
-    margin-left: 110px;
+    margin-left: 100px;
     color: rgb(0, 132, 255);
     margin-bottom: 1px;
 }
 
 .subtitulocadastro {
-    font-size: 16px;
-    margin-left: 140px;
+    font-size: 20px;
+    margin-left: 115px;
     margin-top: 15px;
     color: rgb(121, 121, 121);
 }
@@ -227,7 +235,7 @@ color: rgb(121, 121, 121);;
     margin-bottom: 1px;
 }
 
-.inputnomecadastro {
+.inputnomecadastro, .inputemailcadastro, .inputsenhacadastro {
     height: 45px;
     width: 330px;
     border: 1px solid rgb(209, 209, 209);
@@ -236,17 +244,24 @@ color: rgb(121, 121, 121);;
     background-color: rgb(245, 245, 245);
     font-size: 13px;
     padding-left: 40px;
-    background-image: url(img/iconepessoa.png);
+    background-image: url(img/pessoa.png);
     background-repeat: no-repeat;
-    background-size: 20px 25px;
+    background-size: 30px 30px;
     background-position: 5px;
-
+    transition: all 0.3s ease-out;
 }
-
-.buttoncadastro {
+.inputemailcadastro {
+    background-image: url(img/envelope.png);
+}
+.inputsenhacadastro {
+    background-image: url(img/cadeado.png);
+}
+.buttoncadastrol {
+    display: block;
     margin-top: 20px;
-    height: 50px;
-    width: 375px;
+    margin-left: auto;
+    height: 45px;
+    width: 325px;
     border-radius: 9px;
     border: none;
     color: white;
@@ -258,25 +273,10 @@ color: rgb(121, 121, 121);;
     transition: background 0.3s ease;
     margin-bottom: 20px;
 }
-
-.buttoncadastro button {
-    margin-top: 20px;
-    height: 50px;
-    width: 375px;
-    border-radius: 9px;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background: linear-gradient(to right, #0b5dbb, #00a1fe);
-    cursor: pointer;
-    transition: background 0.3s ease;
-    margin-bottom: 20px;
-}
-.buttoncadastro :hover {
+.buttoncadastrol:hover {
     background: linear-gradient(to right, #0917d6, #065396);
 }
+
 
 
 .façalogincadastro {
@@ -303,8 +303,6 @@ color: rgb(121, 121, 121);;
 }
 
 /*CadastroFim*/
-
-/*fim tela de login*/
 /* inicio header */
 .header1 {
     display: flex;

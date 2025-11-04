@@ -39,3 +39,6 @@ botaoTrocarTema.addEventListener('click', trocarTema);
 function nao() {
     window.location.href="Tela de Login.html"
 }
+function sim() {
+    window.location.href="index.html"
+}
