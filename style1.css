@@ -1,0 +1,152 @@
+/*
+  CORREÇÕES DE RESPONSIVIDADE E ALINHAMENTO
+  - Uso de Flexbox no body para centralização vertical e horizontal.
+  - Uso de max-width e width: % no container para responsividade.
+  - Uso de rem para dimensionamento e espaçamento para escala coesa.
+  - Correção de alinhamento de elementos internos (imagem, títulos, inputs).
+*/
+
+/* ------------------------------------------------------------------- */
+/* CONFIGURAÇÃO BASE PARA ESCALA (REM) */
+/* ------------------------------------------------------------------- */
+/* Define o tamanho base da fonte para 18px para que o layout pareça maior */
+html {
+    font-size: 18px; 
+}
+
+/* ------------------------------------------------------------------- */
+/* BODY (Centralização com Flexbox) */
+/* ------------------------------------------------------------------- */
+.bodycadastro {
+    background-color: #f6fdff;
+    min-height: 100vh; /* Garante que o body ocupe a tela toda */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    padding: 1rem; /* Adiciona um respiro nas bordas da tela */
+}
+
+/* ------------------------------------------------------------------- */
+/* CONTAINER (A Caixa de Login) */
+/* ------------------------------------------------------------------- */
+.Cadastrodivconteiner {
+    background-color: white;
+    max-width: 400px; /* Limite superior em telas grandes */
+    width: 90%;      /* Adaptação em telas pequenas */
+    
+    /* Removido height fixo. Deixamos o conteúdo definir a altura. */
+    
+    margin: 2rem auto; /* Margem vertical e centralização horizontal */
+    border-radius: 0.66rem; /* 12px convertido */
+    
+    /* Padding interno ajustado para ser uniforme e em rem */
+    padding: 1.5rem; 
+    
+    border: 1px solid rgb(209, 209, 209, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------------------------------------------------- */
+/* ELEMENTOS INTERNOS (Centralização e Escala) */
+/* ------------------------------------------------------------------- */
+
+/* Imagem */
+.Cadastrodivconteiner img {
+    display: block;
+    margin: 1.5rem auto 0.5rem auto; /* Centraliza horizontalmente */
+    /* Se a imagem for muito grande, adicione max-width: 100%; */
+}
+
+/* Título */
+.Titulotechship {
+    font-weight: bold;
+    font-size: 1.66rem; /* 30px convertido para 18px base */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto 0.5rem auto; /* Margem ajustada */
+    color: rgb(0, 132, 255);
+}
+
+/* Subtítulo */
+.subtitulologin {
+    font-size: 1.11rem; /* 20px convertido para 18px base */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto 1.11rem auto; /* Margem ajustada */
+    color: rgb(121, 121, 121);
+}
+
+/* Labels (Email, Senha) */
+.nomecadastro {
+    margin-top: 1.11rem; /* 20px convertido */
+    font-size: 0.77rem; /* 14px convertido */
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+    margin-bottom: 0.2rem;
+}
+
+/* Inputs */
+.inputemaillogin, .inputsenhalogin {
+    height: 2.5rem; /* Altura em rem */
+    width: 100%; /* Ocupa toda a largura */
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 0.44rem; /* 8px convertido */
+    margin-top: 0.5rem; /* 10px convertido */
+    background-color: rgb(245, 245, 245);
+    font-size: 0.72rem; /* 13px convertido */
+    padding-left: 2.22rem; /* 40px convertido para o ícone */
+    /* ... propriedades de background-image ... */
+}
+
+/* Botão */
+.buttoncadastro {
+    display: block;
+    /* Removido width: 100%; para usar padding */
+    height: 2.5rem; /* Altura em rem */
+    
+    /* Padding para dar "corpo" ao botão */
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem; 
+    
+    margin: 1.11rem auto; /* Centraliza e adiciona margem vertical */
+    
+    border-radius: 0.5rem; /* 9px convertido */
+    border: none;
+    color: white;
+    font-size: 0.77rem; /* 14px convertido */
+    font-weight: bold;
+    background: linear-gradient(to right, #0b5dbb, #00a1fe);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Outros elementos */
+.façalogincadastro {
+    text-align: center;
+    font-size: 0.72rem; /* 13px convertido */
+    color: rgb(121, 121, 121);
+}
+
+.linhacadastro {
+    border: 0.1px solid rgb(190, 190, 190);
+    width: 100%;
+    margin-top: 2.77rem; /* 50px convertido */
+    margin-bottom: 1.66rem; /* 30px convertido */
+}
+
+.a {
+    text-decoration: none;
+    color: #0b5dbb;
+    font-weight: bold;
+}
+
+.a:hover {
+    border-bottom: 2px solid #0b5dbb;
+}
+
+/* Media Query para telas muito pequenas (se necessário) */
+@media (max-width: 450px) {
+    .Cadastrodivconteiner {
+        width: 95%; 
+        padding: 1rem; /* Diminui o padding interno em telas muito pequenas */
+    }
+}
