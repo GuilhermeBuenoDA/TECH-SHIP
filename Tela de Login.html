@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body class="bodycadastro">
+<body class="bodycadastro"  id="corpo">
 
-    <main>
+    <main id="conteudo">
         <div class="Cadastrodivconteiner">
             <img src="img/LogoTechShip.png" alt="logo">
             <p class="Titulotechship">TECH SHIP</p>
             <p class="subtitulologin">Bem-vindo de volta!</p>
             <p class="nomecadastro">Email</p>
-            <input type="email" placeholder="Digite seu E-Mail" class="inputemaillogin">
+            <input type="email" id="email" placeholder="Digite seu E-Mail" class="inputemaillogin">
             <p class="nomecadastro">Senha</p>
-            <input type="password" placeholder="Digite sua Senha" class="inputsenhalogin">
+            <input type="password" id="senha" placeholder="Digite sua Senha" class="inputsenhalogin">
             <br>
             <button class="buttoncadastro" onclick="sim()">Entrar</button>
-            <p class="façalogincadastro">Já tem uma conta? <a class="a" href="Tela de Cadastro.html">Faça Cadastro</a></p>
+            <p class="façalogincadastro">Não tem uma conta? <a class="a" href="#" onclick="cadastrar(); return false;">Faça Cadastro</a></p>
             <hr  class="linhacadastro">
             <p class="façalogincadastro">Sistema de Gestão Logística © 2025</p>
         </div>
-
-
     </main>
-    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </body>
 </html>
