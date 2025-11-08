@@ -1,54 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Importação</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="bodyimporta">
-    <header>
-        <div class="header1">
-            <div class="titulo1">
-                <h1>TECHSHIP</h1>
-            </div>
-            <div class="a1">
-                <button onclick="Comofunciona()" class="a2">Como funciona</button>
-                <button onclick="nao()" class="a5">Inovações</button>
-                <button class="a3">Rastreamento livre</button>
-                <button class="a4">Contato</button>
-                <button class="a6" id="trocarTema">trocar</button>
-            </div>
-        </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bodyimporta">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+    </style>
+    <header class="headetop">
+      <button class="bt">TechShip</button>
+      <button class="bu">Como funciona</button>
+      <button class="bu">Rastreamento</button>
+      <button class="bu">Contato</button>
     </header>
+    <hr />
     <main>
-<h1 class="ti">Comece sua Importação</h1>
-<p class="si">Preencha os dados abaixo e nossa equipe entrará em contato para finalizar sua importação</p>
-     <div class="caixa1">
+      <h1 class="ti">Comece sua Importação</h1>
+      <p class="si">
+        Preencha os dados abaixo e nossa equipe entrará em contato para
+        finalizar sua importação
+      </p>
+      <div class="bloco1">
         <h1>Informações do Produto</h1>
-        <p>Conte-nos sobre o que você deseja importar</p>
-        <p>URL do Produto *</p>
-        <input type="text" placeholder="Ex:https:MercadoLivre">
+        <p class="sub">Conte-nos sobre o que você deseja importar</p>
+        <div class="lf">
+          <label>URL do Produto *</label>
+          <input type="text" placeholder="Ex:https:MercadoLivre" />
+        </div>
         <div class="linha1">
-            <div>
-               <p>Nome do Produto</p>
-               <input type="text" placeholder="Ex:Iphone 9">
-            </div>
-            <div>
-              <p>Quantidade</p>
-               <input type="number" placeholder="Ex:1">
-            </div>
+          <div class="lf">
+            <label>Nome do Produto</label>
+            <input type="text" placeholder="Ex:Iphone 9" />
+          </div>
+          <div class="lf">
+            <label>Quantidade</label>
+            <input type="number" placeholder="Ex:1" />
+          </div>
         </div>
         <div class="linha2">
-            <div>
-                <p>Valor Unitario</p>
-                <input type="number" placeholder="Ex:2$ dolares">
-            </div>
-            <div>
-                
-            </div>
+          <div class="lf">
+            <label>Valor Unitario</label>
+            <input type="number" placeholder="Ex:2$ dolares" />
+          </div>
+          <div class="lf">
+            <label>Pais De Origem</label>
+            <select name="Lista de Paises" id="opcoes paises" class="listau">
+              <option value="op1">Alemanha</option>
+              <option value="op2">Estados Unidos</option>
+              <option value="op3">Paris</option>
+              <option value="op4">Ingleterra</option>
+              <option value="op4">Para</option>
+            </select>
+          </div>
         </div>
-     </div>
+      </div>
+      <div class="bloco2">
+        <h1>Informações de Entrega</h1>
+        <p class="sub">Para onde devemos enviar sua encomenda?</p>
+        <div class="lf">
+          <label>Nome Completo *</label>
+          <input type="text" placeholder="Seu Nome Completo" />
+        </div>
+        <div class="linha3">
+          <div class="lf">
+            <label for="">E-mail *</label>
+            <input type="email" placeholder="Seu@Email.com" />
+          </div>
+          <div class="lf">
+            <label for="">Telefone</label>
+            <input type="number" placeholder="(00)0000-0000" />
+          </div>
+        </div>
+        <div class="lf">
+          <label for="">Endereço Completo *</label>
+          <input type="text" placeholder="CEP,Referencial" />
+        </div>
+        <div class="lf">
+          <label for="">Informações Adicionais</label>
+          <input type="text" placeholder="Detalher Adicional" />
+        </div>
+      </div>
+      <button class="botaof">Enviar Solicitação</button>
     </main>
-</body>
+  </body>
 </html>
