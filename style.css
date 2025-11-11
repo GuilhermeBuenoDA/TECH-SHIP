@@ -366,12 +366,9 @@ header h1 {
 
 /*inicio*/
 .botao1p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    border-radius: 7px;
+    border-radius: 0.5rem;
     border: none;
-    padding: 10px 20px;
+    padding:  0.8rem 1.8rem;
     background-color: var(--background-button-laranja);
     color: var(--color-button-inicio);
     transition: all 0.8s ease;
@@ -382,14 +379,12 @@ header h1 {
 }
 
 .botao2p {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    border: 1px solid rgb(148, 145, 145);
-    padding: 10px 20px;
+    border-radius: 0.5rem;
+    border: 0.15rem solid blue;
+    padding: 0.8rem 1.8rem;
     background-color: var(--bacground-color-white);
     color: var(--color-black);
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
 }
 
 .botao2p:hover {
@@ -411,81 +406,73 @@ header h1 {
 }
 
 .imageminicial img {
-    margin-left: 80px;
-    margin-top: 250px;
-    width: 700px;
-    height: 600px;
+    width: 60%;
     animation: slideIn 1s ease-out;
-    border-radius: 20px;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
-
-.mãe {
-    margin-top: 20px;
+.imageminicial img:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-5px);
+}
+.fundo {
+    min-width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+.mãe {    
     display: flex;
-    margin-left: 100px;
+    margin: auto auto;
     font-family: Arial, Helvetica, sans-serif;
     animation: slideIn 1s ease-out;
 
 }
 
 .textembaixo {
-    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-family: "Quicksand",Arial, Helvetica, sans-serif;
     color: var(--texto-embaixo);
     font-weight: normal;
-    margin-left: 100px;
-    margin-top: 20px;
-    font-size: 16px;
+    margin: 1rem auto;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
-
-.tp {
-    margin-left: 50px;
-}
-
 .mãe h1 {
     color: var(--color-azul);
-    font-size: 45px;
+    font-size:3rem;
 }
 
 .mãe p {
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--color-azul);
-    font-weight: 85px;
+    font-weight: 1rem;
 }
 
-.op2 {
-    margin-left: 80px;
-}
-
-.op3 {
-    margin-left: 80px;
-}
 
 .parte1 {
     display: flex;
 }
 
 .tituloprincipal {
-    margin-top: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 550;
+    margin: 5rem auto;
     margin-bottom: 1%;
-    margin-left: 100px;
     color: var(--color-black);
-}
-
-.imagemTr {
-    display: flex;
-    height: 500px;
-    width: 500px;
 }
 
 .linha {
-    margin-left: 90px;
-    border-color: rgb(226, 226, 226);
+    margin: 1rem;
     color: var(--color-black);
 }
+.op1,.op2,.op3 {
+    margin: 1rem auto;
 
+}
 /* inicio final */
 
 /* importar inicio  */
@@ -832,20 +819,21 @@ header h1 {
 footer {
     background-color: rgb(2, 14, 36);
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: block;
+    padding: 2rem;
 }
-
+.fmae {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
 footer p {
     color: rgb(225, 234, 241);
 }
-
-.footerdivlogo {
-    display: flex;
-}
-
-.footerdivlogo img {
-    height: 50px;
-}
-
 footer h1 {
     color: white;
     font-size: 25px;
@@ -855,96 +843,41 @@ footer h1 {
 footer button {
     color: rgb(163, 154, 154);
     border: none;
+    margin-left: auto;
     background-color: var(--transparente);
-    margin-top: 20px;
+    margin-top: 1rem;
     transition: color 0, 3s;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 1rem;
     transition: all 0.5s ease;
 }
 
 footer button:hover {
     border-bottom: 3px solid white;
     border-radius: 5px;
-}
-
-footer button:hover {
     color: aliceblue;
-}
-
-.emcima1 {
-    display: flex;
-    padding-top: 40px;
-
-}
-
-.pmaldito {
-    margin-top: 20px;
-    color: rgb(163, 154, 154);
 }
 
 .ultimo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
-
-.ultimo p {
-    margin-left: 95px;
+.t2,.t3 {
+    margin: 1rem auto;
 }
-
-.b1 {
-    margin-left: auto;
-    margin-right: 90px;
-    margin-bottom: 20px;
-    transition: all 1s ease;
-}
-
-.b3 {
-    margin-right: 150px;
-    margin-bottom: 20px;
-}
-
-.b2 {
-    margin-right: 50px;
-    margin-bottom: 20px;
-}
-
-.t0 {
-    margin-left: 100px;
-}
-
-.t1 {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.t2 {
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-.t3 {
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-.t4 {
-    margin-right: 50px;
-    margin-left: 150px;
-}
-
-.to {
-    margin-top: 10px;
-    color: rgb(163, 154, 154);
-}
-
 .hrmaldito {
-    margin-top: 80px;
-    margin-top: 80px;
     border: none;
     border-top: 2px solid rgba(76, 80, 88, 0.2);
+    max-width: 1200px;
+    margin: 2rem auto;
 }
-/*fim do footeer
+/*fim do footer*/
 /*começo da tela de importação*/
 .headetop {
     background-color: white;
@@ -1068,6 +1001,12 @@ outline: none;
 
 @media screen and (max-width: 580px) {
     .bu {
+        display: none;
+    }
+    footer button{
+          display:none;
+    }
+    .des {
         display: none;
     }
 }
