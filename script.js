@@ -117,3 +117,9 @@ function login() {
         </div>
     `;
 }
+function abrirMenu() {
+    const menuI = document.getElementById('menui');
+    const a1 = document.getElementById('a1');
+    
+    menuI.classList.add('sumir');
+}
