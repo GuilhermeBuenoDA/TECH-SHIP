@@ -22,7 +22,7 @@
     --boz-shadow-oreia-fraco: 0 10px 15px rgba(0, 0, 0, 0.2);
     --boz-shadow-oreia-forte: 0 4px 6px rgba(0, 0, 0, 0.3);
 
-    --boz-shadow-oreia-fraco2:0 10px 15px rgba(0, 0, 0, 0.2);
+    --boz-shadow-oreia-fraco2: 0 10px 15px rgba(0, 0, 0, 0.2);
     --boz-shadow-oreia-forte2: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -45,10 +45,10 @@
     --bacground-color-white: black;
 
     --boz-shadow-oreia-fraco: 0 10px 15px rgba(214, 203, 203, 0.76);
-    --boz-shadow-oreia-forte:  0 4px 6px rgba(221, 206, 206, 0.4);
+    --boz-shadow-oreia-forte: 0 4px 6px rgba(221, 206, 206, 0.4);
 
-    --boz-shadow-oreia-fraco2:0 10px 15px rgba(214, 203, 203, 0.76);
-    --boz-shadow-oreia-forte2: 0 4px 6px  rgba(221, 206, 206, 0.4);
+    --boz-shadow-oreia-fraco2: 0 10px 15px rgba(214, 203, 203, 0.76);
+    --boz-shadow-oreia-forte2: 0 4px 6px rgba(221, 206, 206, 0.4);
 }
 
 * {
@@ -57,7 +57,9 @@
     box-sizing: border-box;
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /* inicio */
 /*inicio tela de login*/
 .bodycadastro {
@@ -65,15 +67,17 @@
     background-color: #f6fdff;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     padding: 1rem;
 }
-
+.comecof {
+    margin: auto;
+}
 .Cadastrodivconteiner {
     background-color: white;
     max-width: 400px;
     width: 90%;
-   height: 400px;
+    height: 400px;
     margin: auto;
     border-radius: 12px;
     padding-left: 2rem;
@@ -101,6 +105,7 @@
     text-align: center;
     color: rgb(121, 121, 121);
 }
+
 .buttoncadastro {
     display: block;
     margin-top: 1.25rem;
@@ -118,6 +123,7 @@
     transition: background 0.3s ease;
     margin-bottom: 20px;
 }
+
 .buttoncadastro:hover {
     background: linear-gradient(to right, #0917d6, #065396);
 }
@@ -138,6 +144,7 @@
     transition: all 0.3s ease-out;
 
 }
+
 .inputsenhalogin {
     height: 45px;
     width: 100%;
@@ -154,17 +161,22 @@
     transition: all 0.3s ease-out;
 
 }
-.inputemaillogin:focus, .inputsenhalogin:focus,.inputnomecadastro:focus,.inputemailcadastro:focus,.inputsenhacadastro:focus {
+
+.inputemaillogin:focus,
+.inputsenhalogin:focus,
+.inputnomecadastro:focus,
+.inputemailcadastro:focus,
+.inputsenhacadastro:focus {
     outline: none;
     border-color: #0b5dbb;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transform: translateY(-3px); 
+    transform: translateY(-3px);
 }
 
 .façalogincadastro {
-text-align: center;
-font-size: 13px;
-color: rgb(121, 121, 121);
+    text-align: center;
+    font-size: 13px;
+    color: rgb(121, 121, 121);
 }
 
 .linhacadastro {
@@ -183,20 +195,21 @@ color: rgb(121, 121, 121);
 .a:hover {
     border-bottom: 2px solid #0b5dbb;
 }
-\*fim tela de login*/
+
+/* \*fim tela de login*/
 /* Cadastro */
 .bodycadastro {
     background-color: #f6fdff;
     display: block;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 .Cadastrodivconteiner {
     background-color: white;
     height: 750px;
     width: 400px;
-    margin:auto;
+    margin: auto;
     border-radius: 12px;
     padding-left: 30px;
     padding-right: 30px;
@@ -233,7 +246,9 @@ color: rgb(121, 121, 121);
     margin-bottom: 1px;
 }
 
-.inputnomecadastro, .inputemailcadastro, .inputsenhacadastro {
+.inputnomecadastro,
+.inputemailcadastro,
+.inputsenhacadastro {
     height: 45px;
     width: 330px;
     border: 1px solid rgb(209, 209, 209);
@@ -248,12 +263,15 @@ color: rgb(121, 121, 121);
     background-position: 5px;
     transition: all 0.3s ease-out;
 }
+
 .inputemailcadastro {
     background-image: url(img/envelope.png);
 }
+
 .inputsenhacadastro {
     background-image: url(img/cadeado.png);
 }
+
 .buttoncadastrol {
     display: block;
     margin-top: 20px;
@@ -271,6 +289,7 @@ color: rgb(121, 121, 121);
     transition: background 0.3s ease;
     margin-bottom: 20px;
 }
+
 .buttoncadastro:hover {
     background: linear-gradient(to right, #0917d6, #065396);
 }
@@ -278,9 +297,9 @@ color: rgb(121, 121, 121);
 
 
 .façalogincadastro {
-text-align: center;
-font-size: 13px;
-color: rgb(121, 121, 121);
+    text-align: center;
+    font-size: 13px;
+    color: rgb(121, 121, 121);
 }
 
 .linhacadastro {
@@ -319,45 +338,57 @@ color: rgb(121, 121, 121);
     z-index: 1000;
     border-bottom: 0.1px solid rgb(236, 236, 236);
 }
-.menubt, .menu {
+
+.menubt,
+.menu {
     display: none;
 }
-.menu { 
+
+.menu {
     height: 2rem;
     width: 2rem;
 }
+
 .sumir {
     display: none;
 }
+
 .menubt {
     background-color: transparent;
     cursor: pointer;
     border: 1px solid rgb(77, 76, 76);
 }
+
 @media screen and (max-width: 375px) {
     .header1 {
         min-width: 100%;
         max-width: 375px;
     }
+
     body {
         min-width: 100%;
         max-width: 375px;
     }
+
     .divmaeimportanuncafoitaofacil {
         display: flex;
         flex-direction: column;
     }
-    .divimportanuncafoitaofacil {
-        
-    }
-    .a1,.a2,.a3 {
+
+    .divimportanuncafoitaofacil {}
+
+    .a1,
+    .a2,
+    .a3 {
         display: none;
     }
+
     .headetop {
         display: flex;
         flex-direction: column;
         padding: auto;
     }
+
     .t2,
     .t3,
     .des,
@@ -366,26 +397,35 @@ color: rgb(121, 121, 121);
     .b3 {
         display: none;
     }
+
     .b2 {
         margin: 1rem auto;
     }
+
     .titulofo {
         text-align: center;
     }
+
     .pmaldito {
         text-align: center;
     }
+
     .menu {
         display: flex;
         height: 2rem;
         width: 2rem;
     }
+
     .menubt {
         display: block;
     }
+    .comecof {
+        margin:auto ;
+    }
 
-    
+
 }
+
 header h1 {
     font-family: sans-serif;
     margin-left: 3rem;
@@ -436,7 +476,7 @@ header h1 {
 .botao1p {
     border-radius: 0.5rem;
     border: none;
-    padding:  0.8rem 1.8rem;
+    padding: 0.8rem 1.8rem;
     background-color: var(--background-button-laranja);
     color: var(--color-button-inicio);
     transition: all 0.8s ease;
@@ -482,16 +522,19 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
+
 .imageminicial img:hover {
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-        transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
 }
+
 .fundo {
     min-width: 100%;
     max-width: 1000px;
     text-align: center;
 }
-.mãe {    
+
+.mãe {
     display: flex;
     margin: auto auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -501,16 +544,18 @@ header h1 {
 
 .textembaixo {
     display: block;
-    font-family: "Quicksand",Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: var(--texto-embaixo);
     font-weight: normal;
     margin: 1rem auto;
     font-size: 1.5rem;
     line-height: 1.5;
+    text-align: center;
 }
+
 .mãe h1 {
     color: var(--color-azul);
-    font-size:3rem;
+    font-size: 3rem;
 }
 
 .mãe p {
@@ -530,6 +575,7 @@ header h1 {
     font-weight: 550;
     margin: 5rem auto;
     margin-bottom: 1%;
+    text-align: center;
     color: var(--color-black);
 }
 
@@ -537,10 +583,14 @@ header h1 {
     margin: 1rem;
     color: var(--color-black);
 }
-.op1,.op2,.op3 {
+
+.op1,
+.op2,
+.op3 {
     margin: 1rem auto;
 
 }
+
 /* inicio final */
 
 /* importar inicio  */
@@ -583,7 +633,7 @@ header h1 {
 }
 
 .divimportanuncafoitaofacil:hover {
-    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
+    box-shadow: var(--boz-shadow-oreia-forte2), var(--boz-shadow-oreia-fraco2);
 }
 
 .divimportanuncafoitaofacil1 {
@@ -602,7 +652,7 @@ header h1 {
 }
 
 .divimportanuncafoitaofacil1:hover {
-    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
+    box-shadow: var(--boz-shadow-oreia-forte2), var(--boz-shadow-oreia-fraco2);
 }
 
 
@@ -623,7 +673,7 @@ header h1 {
 }
 
 .divimportanuncafoitaofacil2:hover {
-    box-shadow: var(--boz-shadow-oreia-forte2),var(--boz-shadow-oreia-fraco2);
+    box-shadow: var(--boz-shadow-oreia-forte2), var(--boz-shadow-oreia-fraco2);
 
 }
 
@@ -659,76 +709,121 @@ header h1 {
 /*  importar final */
 
 /*Carlos*/
-.tokito {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+
+.calculadoraIA {
+    background-color: var(--bacground-color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: var(--boz-shadow-oreia-fraco2), var(--boz-shadow-oreia-forte2);
+}
+
+.headerCalculadora {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.headerCalculadora h2 {
+    font-size: 2rem;
     font-weight: bold;
-    text-align: center;
-    margin-top: 70px;
     color: var(--color-black);
 }
 
-.tokito2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
+.headerCalculadora p {
+    font-size: 1rem;
     color: var(--texto-embaixo);
-    margin-top: 20px;
 }
 
-.tokito3 {
-    background: linear-gradient(50deg, var(--tokito-corr), var(--tokito-cor));
-    margin-top: 30px;
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-bottom: 450px;
+.inputCalculadora {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.inputCalculadora input {
+    padding: 0.8rem;
+    border: 1px solid var(--color-linha);
     border-radius: 5px;
-    color: var(--color-black);
-    padding-bottom: 10px;
+    width: 300px;
+    font-size: 1rem;
 }
 
-.tokito4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    color: var(--bacground-color-white);
-    padding-left: 50px;
-    padding-top: 33px;
+.inputCalculadora input:focus {
+    outline: none;
+    border-color: var(--color-azul);
+    box-shadow: 0 0 5px var(--color-azul);
 }
 
-.tokito5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    color: var(--color-cinza-claro);
-    padding-left: 50px;
-}
-
-.tokito6 {
-    margin-left: 50px;
-    padding-right: 500px;
-    background-color: transparent;
-    border-color: rgb(255, 255, 255);
+.inputCalculadora .botaoCalcular {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--background-button-laranja);
+    color: var(--color-button-inicio);
+    border: none;
     border-radius: 5px;
-    padding-bottom: 20px;
-    border: 1px solid white;
-    margin-top: 20px;
-    margin-bottom: 15px;
     cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
-.tokito7 {
-    background: blue, red;
-    /* Duas cores de fundo */
-    background-size: 50% 100%;
-    /* Cada cor ocupa metade da largura */
-    background-position: 0 0, 100% 0;
-    /* Posiciona a azul na esquerda e a vermelha na direita */
-    background-repeat: no-repeat;
-    padding-right: 100px;
-    margin-left: 75px;
-    padding-bottom: 25px;
-    padding-top: 15px;
+.inputCalculadora .botaoCalcular:hover {
+    background-color: var(--background-button1-inicio-hover);
 }
 
+.cardsFuncionalidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: var(--bacground-color-white);
+    border: 1px solid var(--color-linha);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: var(--boz-shadow-oreia-fraco2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: var(--boz-shadow-oreia-forte2);
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-black);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: var(--texto-embaixo);
+    line-height: 1.5;
+}
+
+.card .status {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--color-white);
+    background-color: var(--color-azul);
+}
+.botaoCalcular {
+    color: var(--tokito-co);
+}
 /*Carlosfim*/
 /*inicio Vantags que Fazem a Diferença*/
 .backgroundVantagem {
@@ -741,20 +836,20 @@ header h1 {
 }
 
 .tiituloVantagens1 {
-    font-size: 35px;
+    font-size: 2.1rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 80px;
-    padding-top: 60px;
+    margin-top: 5rem;
+    padding-top: 3.8rem;
     color: var(--color-black);
 }
 
 .tiituloVantagens2 {
-    margin-top: 15px;
-    font-size: 19px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
     color: rgb(163, 163, 163);
     text-align: center;
-    max-width: 800px;
+    max-width: 50rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -766,6 +861,7 @@ header h1 {
     flex-direction: row;
 
 }
+
 .divmãeVantagensDiferença2 {
     display: flex;
     flex-direction: row;
@@ -850,13 +946,13 @@ header h1 {
 
 .divDentroVantagens1 {
     display: flex;
-    margin-top: 25px;
+    margin-top: 1rem;
 }
 
 .divDentroVantagens1 img {
     height: 60px;
     width: 60px;
-    margin-bottom: 90px;
+
 }
 
 .divDentroVantagens1 p {
@@ -871,8 +967,6 @@ header h1 {
 
 .textodivvantagens1 {
     margin-top: 10px;
-    margin-bottom: 20px;
-    padding-bottom: 200px;
     color: var(--color-cinza-claro);
     line-height: 1.6;
 }
@@ -890,6 +984,7 @@ footer {
     display: block;
     padding: 2rem;
 }
+
 .fmae {
     display: flex;
     flex-wrap: wrap;
@@ -898,9 +993,11 @@ footer {
     margin: 0 auto;
     gap: 2rem;
 }
+
 footer p {
     color: rgb(225, 234, 241);
 }
+
 footer h1 {
     color: white;
     font-size: 25px;
@@ -935,15 +1032,19 @@ footer button:hover {
     margin: 0 auto;
     padding: 0 2rem;
 }
-.t2,.t3 {
+
+.t2,
+.t3 {
     margin: 1rem auto;
 }
+
 .hrmaldito {
     border: none;
     border-top: 2px solid rgba(76, 80, 88, 0.2);
     max-width: 1200px;
     margin: 2rem auto;
 }
+
 /*fim do footer*/
 /*começo da tela de importação*/
 .headetop {
@@ -951,19 +1052,22 @@ footer button:hover {
     min-width: 100%;
     max-width: 1000px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
-    0 1px 3px rgba(0, 0, 0, 0.05);
+        0 1px 3px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
+
 .headetop button {
     padding: 1rem;
     border: none;
 }
+
 .bt {
     background-color: white;
     font-size: 2rem;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif
 }
+
 .bu {
     background-color: white;
     font-size: 1rem;
@@ -976,7 +1080,9 @@ footer button:hover {
     display: block;
     font-family: "Quicksand", Arial, sans-serif;
 }
-.bloco1,.bloco2 {
+
+.bloco1,
+.bloco2 {
     margin-top: 6rem;
     border: black 2px solid;
     width: 95%;
@@ -987,52 +1093,65 @@ footer button:hover {
     border-radius: 10px;
     animation: slideIn 1s ease-out;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08),
-    0 1px 3px rgba(0, 0, 0, 0.05);
+        0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-.linha1,.linha2,.linha3 {
+.linha1,
+.linha2,
+.linha3 {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
 }
+
 .lf {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     margin-bottom: 1rem;
 }
+
 .lf input,
 .lf select {
     width: 100%;
 }
+
 .ti {
     margin-top: 3em;
     text-align: center;
     font-size: 3rem;
 }
+
 .bloco1 label {
- white-space: nowrap;
+    white-space: nowrap;
 }
+
 .si {
     text-align: center;
     font-size: 1rem;
     font-weight: 550;
     color: rgb(163, 158, 149);
 }
+
 .sub {
     color: rgb(104, 103, 100);
 }
-.bloco1 input,.bloco2 input {
-    border:0.1rem black solid ;
+
+.bloco1 input,
+.bloco2 input {
+    border: 0.1rem black solid;
     border-radius: 0.7rem;
     padding: 0.45rem;
     font-size: 1rem;
     max-width: 100%;
 }
-.bloco1 input:focus,.bloco2 input:focus {
-border: 0.4px solid var(--color-azul);
-outline: none;
+
+.bloco1 input:focus,
+.bloco2 input:focus {
+    border: 0.4px solid var(--color-azul);
+    outline: none;
 }
+
 .botaof {
     display: block;
     width: 90%;
@@ -1047,9 +1166,11 @@ outline: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .botaof:hover {
     background-color: rgb(255, 140, 0);
 }
+
 .listau {
     border: 0.1rem black solid;
     border-radius: 0.7rem;
@@ -1057,6 +1178,7 @@ outline: none;
     font-size: 1rem;
     max-width: 100%;
 }
+
 .listau:focus {
     outline: none;
     border: 0.4px solid var(--color-azul);
@@ -1064,5 +1186,3 @@ outline: none;
 
 
 /*Tecnologias de Última Geração*/
-
-
