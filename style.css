@@ -1001,6 +1001,7 @@ header h1 {
   box-shadow: var(--boz-shadow-oreia-forte2);
   transform: translateY(-5px);
 }
+
 /* Ajustes responsivos para a seção techu */
 @media (max-width: 900px) {
   .techu h2 {
@@ -1305,7 +1306,7 @@ header h1 {
     font-size: 1rem;
   }
 }
-/*fim rastramento
+/*fim rastramento*/
 /*main final*/
 
 /* footer inicio */
