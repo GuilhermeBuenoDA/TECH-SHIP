@@ -524,25 +524,39 @@ header h1 {
 }
 
 .tituloimportar {
-  font-size: 36px;
+  font-size: 2.9rem;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Quicksand", Helvetica, sans-serif;
   color: var(--color-black);
 }
 
 .tituloimportar2 {
-  margin-top: 20px;
-  font-size: 20px;
+  font-family: "Quicksand", Helvetica, sans-serif;
+  margin-top: 1rem;
+  font-size: 1.3rem;
   color: var(--texto-embaixo);
 }
 
 .divmaeimportanuncafoitaofacil {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-.divimportanuncafoitaofacil {
+.divimportanuncafoitaofacil,
+.divimportanuncafoitaofacil1,
+.divimportanuncafoitaofacil2 {
   background-color: var(--bacground-color-white);
   transition: box-shadow 0.4s ease;
+
+  border-radius: 1rem;
+  border: 1.5px solid rgb(209, 209, 209);
+  padding: 2rem 1.5rem;
+
   border-radius: 20px;
   border: 1.5px solid rgb(209, 209, 209);
   padding-left: 30px;
@@ -566,58 +580,93 @@ header h1 {
   width: 350px;
   height: 250px;
   margin: 1rem auto;
+
   font-family: Arial, Helvetica, sans-serif;
-  transition: box-shadow 0.4s ease;
+
+  /* Quadrado responsivo */
+  width: 280px;
+  height: 280px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 
-.divimportanuncafoitaofacil1:hover {
-  box-shadow: var(--boz-shadow-oreia-forte2), var(--boz-shadow-oreia-fraco2);
-}
-
-.divimportanuncafoitaofacil2 {
-  background-color: var(--bacground-color-white);
-  border: 1.5px solid rgb(209, 209, 209);
-  border-radius: 20px;
-
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 350px;
-  height: 250px;
-  margin: 1rem auto;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: box-shadow 0.4s ease;
-}
-
+.divimportanuncafoitaofacil:hover,
+.divimportanuncafoitaofacil1:hover,
 .divimportanuncafoitaofacil2:hover {
   box-shadow: var(--boz-shadow-oreia-forte2), var(--boz-shadow-oreia-fraco2);
 }
 
-.iconenumeroprimarioimportar {
-  border-radius: 50px;
-  margin-left: 330px;
-  height: 40px;
-}
-
 .iconesecundarioimportar {
   border-radius: 12px;
-  width: 70px;
-  height: 63px;
-  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
 }
 
 .textonegritoimportar {
   font-weight: bold;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--color-grey);
 }
 
 .textoimportarn {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 200px;
+  margin: 0;
+  padding: 0;
   color: var(--color-cinza-claro);
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 1rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- Media Queries para Cards Importar (responsivo) --- */
+@media (max-width: 900px) {
+  .divmaeimportanuncafoitaofacil {
+    gap: 1.5rem;
+  }
+
+  .divimportanuncafoitaofacil,
+  .divimportanuncafoitaofacil1,
+  .divimportanuncafoitaofacil2 {
+    width: 90%;
+    max-width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 580px) {
+  .divmaeimportanuncafoitaofacil {
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .divimportanuncafoitaofacil,
+  .divimportanuncafoitaofacil1,
+  .divimportanuncafoitaofacil2 {
+    width: 95%;
+    height: 280px;
+    padding: 1.5rem 1rem;
+  }
+
+  .iconesecundarioimportar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .textonegritoimportar {
+    font-size: 0.95rem;
+  }
+
+  .textoimportarn {
+    font-size: 0.8rem;
+  }
 }
 
 /*  importar final */
@@ -637,6 +686,7 @@ header h1 {
   max-width: 80%;
   margin: 2rem auto;
   padding: 1;
+  box-shadow: black;
 }
 
 .headerCalculadora h2 {
@@ -919,9 +969,9 @@ header h1 {
     rgb(17, 16, 38),
     rgb(43, 63, 239)
   );
+  box-shadow: var(--boz-shadow-oreia-fraco2);
 }
 .techu img {
-  /* usar max-width em vez de percent para evitar imagem muito pequena em telas pequenas */
   width: auto;
   max-width: 140px;
   height: auto;
@@ -951,7 +1001,6 @@ header h1 {
   box-shadow: var(--boz-shadow-oreia-forte2);
   transform: translateY(-5px);
 }
-
 
 /* Ajustes responsivos para a seção techu */
 @media (max-width: 900px) {
