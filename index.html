@@ -11,23 +11,32 @@
 
 <body id="pagina">
   <header>
-    <div class="header1">
+    <div class="header1" id="header1">
       <div class="titulo1">
         <h1>TECHSHIP</h1>
       </div>
       <div id="a1" class="a1">
         <button onclick="Comofunciona()" class="a2">Como funciona</button>
-        <button onclick="nao()" class="a5">Inovações</button>
-        <button class="a3">Rastreamento livre</button>
-        <button class="a4">Contato</button>
-        <button class="a6" id="trocarTema">trocar</button>
+        <button onclick="Inovações()" class="a5">Inovações</button>
+        <button onclick="Rastreamento()" class="a3">Rastreamento livre</button>
+        <button onclick="Contato()" class="a4">Contato</button>
+        <button class="a6 trocarTema">trocar</button>
       </div>
       <div>
-        <button onclick="abrirMenu()" class="menubt">
-          <img id="menui" class="menu" src="img/logo hamburgu verde.png" alt="menu">
+        <button id="menui" onclick="abrirMenu()" class="menubt">
+          <img class="menu" src="img/logo hamburgu verde.png" alt="menu">
         </button>
       </div>
+      <div id="a2" class="a1 a7">
+        <button onclick="Comofunciona()" class="a2">Como funciona</button>
+        <button onclick="Inovações2()" class="a5">Inovações</button>
+        <button onclick="Rastreamento()" class="a3">Rastreamento livre</button>
+        <button onclick="Contato()" class="a4">Contato</button>
+        <button class="a6 trocarTema">trocar</button>
+        <button class="a8" onclick="fecharMenu()">Fechar</button>
+      </div>
     </div>
+
   </header>
   <main>
     <br />
@@ -42,7 +51,7 @@
               Compre em qualquer loja internacional com segurança, <br>
               rastreamento em tempo real e sem surpresas na taxação. A TECH SHIP cuida de tudo para você.
             </p>
-            <button class="botao1p">Comece a Importa</button>
+            <button onclick="comecarImp()" class="botao1p">Comece a Importa</button>
             <button class="botao2p">Saiba Mais</button>
             <hr class="linha" />
             <div class="mãe">
@@ -68,7 +77,8 @@
 
       <!-- Importar Nunca foi tão facil-->
 
-      <br /><br /><br /><br /><br /><br /><br /><br /><br id="ComoFunciona" /><br /><br /><br /><br />
+      <br /><br /><br class="n" /><br class="n" /><br class="n" /><br class="n" /><br class="n" /><br class="n" /><br
+        id="ComoFunciona" /><br /><br /><br /><br />
       <div class="tituloimportarnunca">
         <p class="tituloimportar">Importar Nunca Foi Tão Fácil</p>
         <p class="tituloimportar2">
@@ -116,24 +126,24 @@
 
       <!--Inovações que Transformam sua experiencias-->
       <div class="calculadora">
-        <div class="headerCalculadora">
+        <div class="headerCalculadora" id="calcular4">
           <h2>Calculadora de IA</h2>
           <p>Cálculo instantâneo com análise preditiva</p>
           <div class="inputCalculadora">
-            <input type="text" placeholder="Cole o link do produto aqui..." />
-            <button class="botaoCalcular">Calcular com IA</button>
+            <input id="codigo2" type="text" placeholder="Cole o link do produto aqui..." />
+            <button id="botaoc" onclick="calcular()" class="botaoCalcular">Calcular com IA</button>
           </div>
         </div>
         <div class="cardsFuncionalidades">
           <div class="c1">
             <div class="card">
-              <img src="img/logo olho.png" alt="Visualização AR" />
+              <img src="img/logo olho.png" id="meuOlho" alt="Visualização AR" />
               <h3>Visualização AR</h3>
               <p>Veja o produto na sua casa antes de comprar usando Realidade Aumentada pelo seu celular</p>
               <span class="status1">Em breve</span>
             </div>
             <div class="card">
-              <img src="img/logo pilha.png" alt="Consolidação Inteligente" />
+              <img src="img/logo pilha.png" id="meuOlho" alt="Consolidação Inteligente" />
               <h3>Consolidação Inteligente</h3>
               <p>IA sugere combinar suas compras para economizar até 60% no frete internacional</p>
               <span class="status2">IA Powered</span>
@@ -141,13 +151,13 @@
           </div>
           <div class="c1">
             <div class="card">
-              <img src="img/logo escudo.png" alt="Blockchain Seguro" />
+              <img src="img/logo escudo.png" id="meuOlho" alt="Blockchain Seguro" />
               <h3>Blockchain Seguro</h3>
               <p>Rastreamento imutável via blockchain garantindo autenticidade e transparência total</p>
               <span class="status3">Segurança Máxima</span>
             </div>
             <div class="card">
-              <img src="img/logo mensagem.png" alt="Assistente IA 24/7" />
+              <img src="img/logo mensagem.png" id="meuOlho" alt="Assistente IA 24/7" />
               <h3>Assistente IA 24/7</h3>
               <p>ChatBot inteligente que responde dúvidas, rastreia pedidos e calcula custos instantaneamente</p>
               <span class="status4">Online 24/7</span>
@@ -155,34 +165,34 @@
           </div>
           <div class="c1">
             <div class="card">
-              <img src="img/logo trofeu.png" alt="Sistema de Recompensas" />
+              <img src="img/logo trofeu.png" id="meuOlho" alt="Sistema de Recompensas" />
               <h3>Sistema de Recompensas</h3>
               <p>Ganhe pontos, badges e descontos a cada compra. Suba de nível e desbloqueie benefícios exclusivos</p>
               <span class="status5">Gamificação</span>
             </div>
             <div class="card">
-              <img src="img/logo cpu.png" alt="Previsão de Preços" />
+              <img src="img/logo cpu.png" id="meuOlho" alt="Previsão de Preços" />
               <h3>Previsão de Preços</h3>
               <p>Machine Learning prevê o melhor momento para comprar baseado em câmbio, frete e tendências</p>
-              <span class="status6">ML Powered</span>
-            </div>
+              <span class="status6" id="inovacoes">ML Powered</span>
+            </div >
           </div>
-          <br>
+          <br id="inovacoes2">
           <!--Inovações que Transformam sua experiencias FIm-->
 
           <!--Tecnologias de Última Geração-->
-          <div class="techu">
+          <div class="techu"  >
             <div class="eu">
-              <img src="img/logo estrelas.png" alt="estrela" />
+              <img src="img/logo estrelas.png" id="meuOlho"   alt="estrela" />
               <h2 class="tu">Tecnologias de Última Geração</h2>
-              <p class="kk">
+              <p class="kk" >
                 Combinamos Inteligência Artificial, Blockchain, IoT e Cloud
                 Computing para criar a <br> experiência de importação mais avançada do
                 Brasil.
               </p>
             </div>
 
-            <div class="nois">
+            <div class="nois" >
               <button class="click">TensorFlow AI</button>
               <button class="click">Ethereum Blockchain</button>
               <button class="click">IoT Sensors</button>
@@ -196,6 +206,7 @@
         <!--Tecnologias de Última Geração Fim-->
 
         <!--Vantagens que Fazem a Diferença-->
+
 
         <div class="backgroundVantagem">
           <div class="tituloVantagensDiferença">
@@ -260,7 +271,7 @@
                 </div>
                 <div>
                   <p class="titulodivVantagens1">Cupons Universais</p>
-                  <p class="textodivvantagens1">
+                  <p class="textodivvantagens1" >
                     Aproveite descontos exclusivos em diversas lojas parceiras
                     ao redor do mundo e economize ainda mais.
                   </p>
@@ -272,16 +283,18 @@
 
         <!--Vantagens que Fazem a Diferença Fim-->
       </div>
-      <div class="rastreamento">
+      <br id="Rastreamentor"><br><br >
+      <div  class="rastreamento" id="rastreamentos">
         <div class="come">
           <img src="img/logo foguete.png" alt="foguete">
           <h1> Rastreamento em Tempo Real</h1>
         </div>
         <p>Acompanhe seu pedido se movendo pelo mundo em tempo real com nossa tecnologia de Ponta</p>
         <div class="inp">
-          <input type="text" placeholder="Digite o codigo o codigo de Rastreamento Ex:T3R7G9">
-          <button>Rastreamento ao Vivo</button>
+          <input type="text" id="codigo" placeholder="Digite o codigo o codigo de Rastreamento Ex:T3R7G9">
+          <button id="botaoRastrear" onclick="rastrear()">Rastreamento ao Vivo</button>
         </div>
+
         <p>Experimente nosso sistema de rastreamento ao vivo! Digite qualquer código para ver a mágica acontecer.</p>
       </div>
   </main>
@@ -315,7 +328,7 @@
               <button>Como Funciona</button><br />
               <button>Benefícios</button><br />
               <button>Rastreamento</button><br />
-              <button>FAQ</button>
+              <button onclick="levarCadastro()">FAQ</button>
             </div>
             <div class="t3">
               <h1 class="des">Contato</h1>
@@ -326,7 +339,7 @@
           </div>
         </div>
         <hr class="hrmaldito" />
-        <div class="ultimo">
+        <div class="ultimo" id="contato">
           <p class="upm">>© 2025 TECH SHIP. Todos os direitos reservados.</p>
           <button class="b1">Termos de Serviço</button>
           <button class="b2">Política de Privacidade</button>
