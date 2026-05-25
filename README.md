@@ -1,0 +1,1 @@
+[![pages-build-deployment](https://github.com/GuilhermeBuenoDA/TECH-SHIP/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/GuilhermeBuenoDA/TECH-SHIP/actions/workflows/pages/pages-build-deployment)
